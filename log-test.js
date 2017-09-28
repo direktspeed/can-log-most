@@ -1,6 +1,6 @@
 'use strict';
 
-var QUnit = require("../../test/qunit");
+var QUnit = require('steal-qunit');
 var canLog = require("./log");
 
 if(typeof console !== "undefined") {
